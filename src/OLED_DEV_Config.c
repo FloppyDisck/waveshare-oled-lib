@@ -9,7 +9,7 @@
 * | Info        :   Updated by Guy S Garcia
 *
 ******************************************************************************/
-#include "oledmod/DEV_Config.h"
+#include "../include/OLED_DEV_Config.h"
 
 uint32_t fd;
 /*****************************************
@@ -120,10 +120,10 @@ UBYTE DEV_ModuleInit(void)
 #elif USE_WIRINGPI_LIB  
     //if(wiringPiSetup() < 0)//use wiringpi Pin number table  
     if(wiringPiSetupGpio() < 0) { //use BCM2835 Pin number table
-        DEBUG("set wiringPi lib failed	!!! \r\n");
+        printf("set wiringPi lib failed	!!! \r\n");
         return 1;
     } else {
-        DEBUG("set wiringPi lib success  !!! \r\n");
+        printf("set wiringPi lib success  !!! \r\n");
     }
     DEV_GPIO_Init();
     #if USE_SPI

@@ -1,8 +1,8 @@
 #ifndef __OLED_GUI_H
 #define __OLED_GUI_H		
 
-#include "oledmod/OLED_Driver.h"
-#include "fontsmod/fonts.h"
+#include "OLED_Driver.h"
+#include "fonts.h"
 
 /********************************************************************************
 function:	

@@ -18,7 +18,6 @@
 #include <string.h>
 #include <stdint.h>
 #include <unistd.h>
-#include "oledmod/Debug.h"
 
 
 #define USE_SPI 1
