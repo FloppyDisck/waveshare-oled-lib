@@ -23,5 +23,5 @@ install(TARGETS ${PROJECT_NAME}
 
 target_link_libraries(${PROJECT_NAME} mod::fonts ${WIREPI})
 
-install(FILES ${CMAKE_BINARY_DIR}/woled.pc
+install(FILES ${CMAKE_BINARY_DIR}/oled/woled.pc
         DESTINATION ${CMAKE_INSTALL_DATAROOTDIR}/pkgconfig)
