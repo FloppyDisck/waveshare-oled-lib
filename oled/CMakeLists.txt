@@ -11,7 +11,7 @@ target_include_directories( ${PROJECT_NAME}
 set_target_properties(${PROJECT_NAME} PROPERTIES
         VERSION ${PROJECT_VERSION}
         SOVERSION 1
-        PUBLIC_HEADER oledmod/OLED_GUI.h)
+        PUBLIC_HEADER include/oledmod/OLED_GUI.h)
 
 configure_file(woled.pc.in woled.pc @ONLY)
 
