@@ -9,7 +9,7 @@
 * | Info        :   Updated by Guy S Garcia
 *
 ******************************************************************************/
-#include "../include/OLED_DEV_Config.h"
+#include "OLED_DEV_Config.h"
 
 uint32_t fd;
 /*****************************************

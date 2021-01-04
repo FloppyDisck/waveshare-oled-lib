@@ -36,7 +36,7 @@
   */
 
 /* Includes ------------------------------------------------------------------*/
-#include "../include/fonts.h"
+#include "fonts.h"
 
 const uint8_t Font24_Table [] = 
 {
